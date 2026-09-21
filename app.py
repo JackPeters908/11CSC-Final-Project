@@ -5,13 +5,18 @@ from bottle import route, static_file, run, template, view
 def home():
     return {}
 
-@route('/about')
+@route('/truthvsmyth')
 @view('about')
 def about():
     return {}
 
-@route('/contact')
+@route('/nzissues')
 @view('contact')
+def contact():
+    return {}
+
+@route('/impacts')
+@view('impact')
 def contact():
     return {}
 
