@@ -9,6 +9,14 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
+.about-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch;
+
+}
+
 nav {
 display: flex;
 justify-content: space-evenly;
@@ -46,34 +54,41 @@ nav a:hover{
 .text-container {
   border: 3px solid #FFC9A3;
   border-radius: 9px;
-  padding-top: 50.5px;
-  padding-bottom: 50.5px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 30px 25px;
   background-color: #658CFF;
+  flex: 1;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 407px;
+  width: 425px;
 }
 .text-container2 {
   border: 3px solid #FFC9A3;
   border-radius: 9px;
-  padding-top: 50.5px;
-  padding-bottom: 50.5px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 30px 25px;
   background-color: #658CFF;
+  flex: 1;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 407px;
+  width: 425px;
 }
 
 .text-column {
   display: flex;
-  flex-direction: column; 
+  flex-direction: row; 
   gap: 20px;            
-  flex-grow: 1;           
+  flex-grow: 1;  
+  align-items: stretch;         
 }
 
 .gallery {
- width: 410px;
-  height: 557.5px; 
+ width: 358px;
+  height: 465px; 
   object-fit: cover; 
   border-radius: 9px;
   border: 3px solid #FFC9A3;   
-  max-height: none; 
+  flex-shrink: 0;
+  margin-right: 35px;
+  min-height: 0;
 }
