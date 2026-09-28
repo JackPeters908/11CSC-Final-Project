@@ -17,12 +17,11 @@ def contact():
 
 @route('/impacts')
 @view('impact')
-def contact():
+def impact():
     return {}
 
 @route('/static/<filename>')
 def server_static(filename):
     return static_file(filename, root='./static')
-
-run(host='localhost', port=8080, reloader=True, debug=True)
 print("Server is running at http://localhost:8080")
+run(host='localhost', port=8080, reloader=True, debug=True)
