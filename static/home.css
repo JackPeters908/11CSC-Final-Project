@@ -4,15 +4,15 @@ body {
     padding: 0 0 20px 0;
     margin: 0;
 }
-h1, .about-container, .media-container{
-padding-left: 20px;
-padding-right: 20px;
+.about-container, .media-container{
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .about-container {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 15px;
   align-items: stretch;
 
 }
@@ -61,6 +61,7 @@ nav a:hover{
   margin-right: 35px;
   height: 407px;
   width: 425px;
+  font-size: 20px;
 }
 .text-container2 {
   border: 3px solid #FFC9A3;
@@ -69,9 +70,24 @@ nav a:hover{
   background-color: #658CFF;
   flex: 1;
   margin-left: 35px;
-  margin-right: 35px;
+  font-size: 20px;
+  
   height: 407px;
   width: 425px;
+}
+
+.text-container3 {
+  border: 3px solid #FFC9A3;
+  border-radius: 9px;
+  padding: 30px 25px 25px 30px;
+  background-color: #658CFF;
+  flex: 1;
+  margin-left: 15px;
+  height: 220px;
+  width: 1425px;
+  font-size: 20px;
+  margin-top: 20px;
+  align-items: center;
 }
 
 .text-column {
