@@ -6,17 +6,17 @@ def home():
     return {}
 
 @route('/truthvsmyth')
-@view('about')
-def about():
+@view('truthvsmyth')
+def truthvsmyth():
     return {}
 
 @route('/nzissues')
-@view('contact')
-def contact():
+@view('nzissues')
+def nzissues():
     return {}
 
 @route('/impacts')
-@view('impact')
+@view('impacts')
 def impact():
     return {}
 
