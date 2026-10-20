@@ -110,7 +110,7 @@ border: 3px solid #FFC9A3;
 }
 
 .gallery2 {
- width: 380px;
+ width: auto;
   
   object-fit: cover; 
   border-radius: 9px;
