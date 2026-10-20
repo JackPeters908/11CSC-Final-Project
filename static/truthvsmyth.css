@@ -101,7 +101,7 @@ border: 3px solid #FFC9A3;
   border-radius: 9px;
   padding: 20px;
   background-color: #658CFF;
- 
+  text-align: left;
   
   font-size: 17px;
   flex: 1;
@@ -122,6 +122,8 @@ border: 3px solid #FFC9A3;
 }
 
 .about-container2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   gap: 20px;
   padding: 15px;
@@ -130,6 +132,7 @@ border: 3px solid #FFC9A3;
 }
 
 .about-container3 {
+  margin-top: 20px;
   display: flex;
   gap: 20px;
   padding: 15px;
@@ -187,7 +190,7 @@ border: 3px solid #FFC9A3;
 }
 
 .gallery5 {
- width: 48px;
+ width: 485px;
   min-height: 344px; 
   object-fit: cover; 
   border-radius: 9px;
