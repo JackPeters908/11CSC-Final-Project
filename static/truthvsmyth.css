@@ -190,11 +190,8 @@ border: 3px solid #FFC9A3;
 }
 
 .gallery5 {
-<<<<<<< HEAD
  width: 485px;
-=======
- width: 675px;
->>>>>>> ad75db614a54d2e3ead53f1fc24e37ca66c0f313
+
   min-height: 344px; 
   object-fit: cover; 
   border-radius: 9px;
