@@ -17,7 +17,7 @@ def nzissues():
 
 @route('/impacts')
 @view('impacts')
-def impact():
+def impacts():
     return {}
 
 @route('/static/<filename>')
