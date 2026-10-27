@@ -116,6 +116,9 @@ body {
   padding: 15px;
   align-items: stretch;
   background-color: #B7CCFF;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .about-container3 {
