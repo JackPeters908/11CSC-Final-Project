@@ -32,7 +32,10 @@ nav a:hover{
 .about-container {
   display: flex;
   gap: 20px;
-  padding: 15px;
+  padding-top: 15px;
+  
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: stretch;
   background-color: #A3BFFF;
 
