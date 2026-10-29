@@ -1,27 +1,33 @@
-from bottle import route, static_file, run, template, view
+from bottle import Bottle, route, static_file, run, template, view
 
-@route('/')
-@view('home')
+app = Bottle()
+
+@app.route('/')
+@app.view('home')
 def home():
     return {}
 
-@route('/truthvsmyth')
-@view('truthvsmyth')
+@app.route('/truthvsmyth')
+@app.view('truthvsmyth')
 def truthvsmyth():
     return {}
 
-@route('/nzissues')
-@view('nzissues')
+@app.route('/nzissues')
+@app.view('nzissues')
 def nzissues():
     return {}
 
-@route('/impacts')
-@view('impacts')
+@app.route('/impacts')
+@app.view('impacts')
 def impacts():
     return {}
 
-@route('/static/<filename>')
+@app.route('/static/<filename>')
 def server_static(filename):
     return static_file(filename, root='./static')
-print("Server is running at http://localhost:8080")
-run(host='localhost', port=8080, reloader=True, debug=True)
+
+if __name__ == '__main__':
+    import os
+    app.run(host='0.0.0.0',port=int(os.environ.get('PORT', 8080)), debug=False)
+        
+    
