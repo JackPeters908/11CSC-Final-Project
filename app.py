@@ -3,22 +3,22 @@ from bottle import Bottle, route, static_file, run, template
 app = Bottle()
 
 @app.route('/')
-
+@app.view('home')
 def home():
     return {}
 
 @app.route('/truthvsmyth')
-
+@app.view('truthvsmyth')
 def truthvsmyth():
     return {}
 
 @app.route('/nzissues')
-
+@app.view('nzissues')
 def nzissues():
     return {}
 
 @app.route('/impacts')
-
+@app.view('impacts')
 def impacts():
     return {}
 
