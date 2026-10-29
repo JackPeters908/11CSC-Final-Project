@@ -1,4 +1,4 @@
-from bottle import Bottle, route, static_file, run, template
+from bottle import Bottle, route, static_file, run, template, view
 
 app = Bottle()
 
