@@ -128,16 +128,21 @@ border: 3px solid #FFC9A3;
   align-items: stretch;
   background-color: #B7CCFF;
   border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 .about-container3 {
   display: flex;
   gap: 20px;
-  padding: 15px;
+  padding: 20px;
   align-items: stretch;
   background-color: #A3BFFF;
   margin-left: 15px;
   margin-right: 15px;
+  padding-top: 30px;
+  padding-bottom:30px;
 }
 
 .text-container4 {
@@ -175,6 +180,8 @@ border: 3px solid #FFC9A3;
   align-items: stretch;
   background-color: #B7CCFF;
   border-radius: 9px;
-  display: flex
+  display: flex;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 
