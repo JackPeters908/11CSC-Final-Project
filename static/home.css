@@ -62,7 +62,7 @@ nav a:hover{
   margin-right: 35px;
   height: 407px;
   width: auto;
-  font-size: 25px;
+  font-size: 22.5px;
 }
 .text-container2 {
   border: 3px solid #FFC9A3;
@@ -71,7 +71,7 @@ nav a:hover{
   background-color: #658CFF;
   flex: 1;
   margin-left: 35px;
-  font-size: 25px;
+  font-size: 22.5px;
   margin-right: 15px;
   height: 407px;
   width: auto;
@@ -87,8 +87,9 @@ nav a:hover{
   margin-right: 30px;
   height: 220px;
   width: auto;
-  font-size: 25px;
+  font-size: 22.5px;
   margin-top: 20px;
+  padding-bottom: 40px;
   align-items: center;
 }
 
